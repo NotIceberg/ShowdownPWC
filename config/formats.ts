@@ -2610,6 +2610,12 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard NatDex', 'Dynamax Clause'],
 		banlist: ['ND Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass'],
 	},
+	{
+		name: "[Gen 9] PWC 2025",
+		mod: 'gen9',
+		ruleset: ['Standard NatDex', '!Evasion Clause', 'Evasion Moves Clause', 'Evasion Items Clause'],
+		banlist: ['Shedinja', 'Assist', 'Baton Pass'],
+	},
 
 	// National Dex Other Tiers
 	///////////////////////////////////////////////////////////////////
