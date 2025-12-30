@@ -2061,7 +2061,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 2564,
 		gen: 9,
-		isNonstandard: "Future",
+		isNonstandard: null,
 	},
 	fightinggem: {
 		name: "Fighting Gem",
