@@ -5171,7 +5171,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		num: 2585,
 		gen: 9,
-		isNonstandard: "Future",
+		isNonstandard: null,
 	},
 	raichunitey: {
 		name: "Raichunite Y",

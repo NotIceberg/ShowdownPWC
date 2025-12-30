@@ -260,7 +260,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 	raichumegax: {
-		isNonstandard: "Future",
+		isNonstandard: null,
 		tier: "Illegal",
 	},
 	raichumegay: {
@@ -2474,9 +2474,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "Uber",
 	},
 	rayquazamega: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-		natDexTier: "AG",
+		isNonstandard: null,
+		tier: "Uber",
+		natDexTier: "Uber",
 	},
 	jirachi: {
 		tier: "RU",
