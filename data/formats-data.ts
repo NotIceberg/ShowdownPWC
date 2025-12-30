@@ -1275,8 +1275,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 	feraligatrmega: {
-		isNonstandard: "Future",
-		tier: "Illegal",
+		isNonstandard: null,
+		tier: "OU",
 	},
 	sentret: {
 		tier: "LC",
