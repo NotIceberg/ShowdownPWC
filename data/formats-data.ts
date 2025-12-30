@@ -715,9 +715,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RUBL",
 	},
 	gengarmega: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-		natDexTier: "AG",
+		isNonstandard: null,
+		tier: "Uber",
+		natDexTier: "Uber",
 	},
 	gengargmax: {
 		isNonstandard: "Past",
