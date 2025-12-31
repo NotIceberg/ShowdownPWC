@@ -7642,7 +7642,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	venusauriteg: {
 		name: "Venusaurite G",
 		spritenum: 608,
-		megaStone: "Venusaur-Gmax",
+		megaStone: "Venusaur-G",
 		megaEvolves: "Venusaur",
 		itemUser: ["Venusaur"],
 		onTakeItem(item, source) {
