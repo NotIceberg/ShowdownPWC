@@ -58,11 +58,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Grass"],
 		requiredItem: "Venusaurite",
 	},
-	venusaurgmax: {
+	venusaurg: {
 		num: 3,
-		name: "Venusaur-Gmax",
+		name: "Venusaur-G",
 		baseSpecies: "Venusaur",
-		forme: "Gmax",
+		forme: "Mega",
 		types: ["Grass", "Poison"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 120, atk: 122, def: 123, spa: 80, spd: 120, spe: 60 },
