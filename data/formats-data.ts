@@ -18,6 +18,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	venusaurgmax: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+		natDexTier: "UU",
 	},
 	charmander: {
 		tier: "LC",

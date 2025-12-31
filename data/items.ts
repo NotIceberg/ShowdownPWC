@@ -7642,7 +7642,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	venusauriteg: {
 		name: "Venusaurite G",
 		spritenum: 608,
-		megaStone: "Venusaur-Mega",
+		megaStone: "Venusaur-Gmax",
 		megaEvolves: "Venusaur",
 		itemUser: ["Venusaur"],
 		onTakeItem(item, source) {
@@ -7650,8 +7650,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return true;
 		},
 		num: -1,
-		gen: 6,
-		isNonstandard: "Past",
+		gen: 9,
+		isNonstandard: null,
 	},
 	victreebelite: {
 		name: "Victreebelite",
