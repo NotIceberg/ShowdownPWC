@@ -15,8 +15,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 		natDexTier: "UU",
 	},
-	venusaurgmax: {
-		isNonstandard: "Past",
+	venusaurg: {
+		isNonstandard: null,
 		tier: "Illegal",
 		natDexTier: "UU",
 	},
