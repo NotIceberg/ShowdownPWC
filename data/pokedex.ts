@@ -41,7 +41,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 32,
 		eggGroups: ["Monster", "Grass"],
 		otherFormes: ["Venusaur-Mega", "Venusaur-Gmax"],
-		formeOrder: ["Venusaur", "Venusaur-Mega"],
+		formeOrder: ["Venusaur", "Venusaur-Mega", "Venusaur-Gmax"],
 	},
 	venusaurmega: {
 		num: 3,
@@ -62,7 +62,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 3,
 		name: "Venusaur-Gmax",
 		baseSpecies: "Venusaur",
-		forme: "Mega",
+		forme: "Gmax",
 		types: ["Grass", "Poison"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 120, atk: 122, def: 123, spa: 80, spd: 120, spe: 60 },
