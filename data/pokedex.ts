@@ -40,12 +40,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Ivysaur",
 		evoLevel: 32,
 		eggGroups: ["Monster", "Grass"],
-		otherFormes: ["Venusaur-Mega", "Venusaur-G"],
-		formeOrder: ["Venusaur", "Venusaur-Mega", "Venusaur-G"],
+		otherFormes: ["Venusaur-Mega-X", "Venusaur-Y"],
+		formeOrder: ["Venusaur", "Venusaur-Mega-X", "Venusaur-Mega-G"],
 	},
-	venusaurmega: {
+	venusaurmegax: {
 		num: 3,
-		name: "Venusaur-Mega",
+		name: "Venusaur-Mega-X",
 		baseSpecies: "Venusaur",
 		forme: "Mega",
 		types: ["Grass", "Poison"],
@@ -56,11 +56,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 155.5,
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
-		requiredItem: "Venusaurite",
+		requiredItem: "Venusaurite X",
 	},
-	venusaurg: {
+	venusaurmegag: {
 		num: 3,
-		name: "Venusaur-G",
+		name: "Venusaur-Mega-G",
 		baseSpecies: "Venusaur",
 		forme: "Mega",
 		types: ["Grass", "Poison"],
