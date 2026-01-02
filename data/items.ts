@@ -5524,7 +5524,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	},
 	raichunitex: {
 		name: "Raichunite X",
-		spritenum: 0,
+		spritenum: 596,
 		megaStone: "Raichu-Mega-X",
 		megaEvolves: "Raichu",
 		itemUser: ["Raichu"],
