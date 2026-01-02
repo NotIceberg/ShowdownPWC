@@ -62,7 +62,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 3,
 		name: "Venusaur-Mega-G",
 		baseSpecies: "Venusaur",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Grass", "Poison"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 120, atk: 122, def: 123, spa: 80, spd: 120, spe: 60 },
