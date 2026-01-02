@@ -40,7 +40,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Ivysaur",
 		evoLevel: 32,
 		eggGroups: ["Monster", "Grass"],
-		otherFormes: ["Venusaur-Mega-X", "Venusaur-Y"],
+		otherFormes: ["Venusaur-Mega-X", "Venusaur-Mega-G"],
 		formeOrder: ["Venusaur", "Venusaur-Mega-X", "Venusaur-Mega-G"],
 	},
 	venusaurmega: {
@@ -148,11 +148,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Charizardite Y",
 	},
-	charizardg: {
+	charizardmegag: {
 		num: 6,
-		name: "Charizard-G",
+		name: "Charizard-Mega-G",
 		baseSpecies: "Charizard",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Fire"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 118, atk: 129, def: 118, spa: 74, spd: 115, spe: 80 },
@@ -222,11 +222,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Water 1"],
 		requiredItem: "Blastoisinite",
 	},
-	blastoiseg: {
+	blastoisemegag: {
 		num: 9,
-		name: "Blastoise-G",
+		name: "Blastoise-Mega-G",
 		baseSpecies: "Blastoise",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 109, atk: 83, def: 120, spa: 145, spd: 115, spe: 58 },
@@ -278,11 +278,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Butterfree-G"],
 		formeOrder: ["Butterfree", "Butterfree-G"],
 	},
-	butterfreeg: {
+	butterfreemegag: {
 		num: 12,
-		name: "Butterfree-G",
+		name: "Butterfree-Mega-G",
 		baseSpecies: "Butterfree",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Bug", "Fairy"],
 		baseStats: { hp: 80, atk: 30, def: 50, spa: 120, spd: 105, spe: 110 },
 		abilities: { 0: "Tinted Lens" },
@@ -759,11 +759,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 	},
-	pikachug: {
+	pikachumegag: {
 		num: 25,
-		name: "Pikachu-G",
+		name: "Pikachu-Mega-G",
 		baseSpecies: "Pikachu",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Electric"],
 		baseStats: { hp: 85, atk: 40, def: 80, spa: 125, spd: 100, spe: 100 },
 		abilities: { 0: "Simple" },
@@ -1355,11 +1355,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Perrserker"],
 		eggGroups: ["Field"],
 	},
-	meowthg: {
+	meowthmegag: {
 		num: 52,
-		name: "Meowth-G",
+		name: "Meowth-Mega-G",
 		baseSpecies: "Meowth",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Normal"],
 		baseStats: { hp: 85, atk: 55, def: 65, spa: 15, spd: 60, spe: 115 },
 		abilities: { 0: "Huge Power" },
@@ -1657,11 +1657,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Machamp-G"],
 		formeOrder: ["Machamp", "Machamp-G"],
 	},
-	machampg: {
+	machampmegag: {
 		num: 68,
-		name: "Machamp-G",
+		name: "Machamp-Mega-G",
 		baseSpecies: "Machamp",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Fighting"],
 		genderRatio: { M: 0.75, F: 0.25 },
 		baseStats: { hp: 120, atk: 170, def: 100, spa: 45, spd: 115, spe: 35 },
@@ -2219,11 +2219,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Amorphous"],
 		requiredItem: "Gengarite",
 	},
-	gengarg: {
+	gengarmegag: {
 		num: 94,
-		name: "Gengar-G",
+		name: "Gengar-Mega-G",
 		baseSpecies: "Gengar",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Ghost", "Poison"],
 		baseStats: { hp: 100, atk: 45, def: 115, spa: 145, spd: 115, spe: 80 },
 		abilities: { 0: "No Guard" },
@@ -2297,11 +2297,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Kingler-G"],
 		formeOrder: ["Kingler", "Kingler-G"],
 	},
-	kinglerg: {
+	kinglermegag: {
 		num: 99,
-		name: "Kingler-G",
+		name: "Kingler-Mega-G",
 		baseSpecies: "Kingler",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Water"],
 		baseStats: { hp: 95, atk: 150, def: 125, spa: 50, spd: 60, spe: 95 },
 		abilities: { 0: "Anger Shell" },
@@ -2973,11 +2973,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Lapras-G"],
 		formeOrder: ["Lapras", "Lapras-G"],
 	},
-	laprasg: {
+	laprasmegag: {
 		num: 131,
-		name: "Lapras-G",
+		name: "Lapras-Mega-G",
 		baseSpecies: "Lapras",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Water", "Ice"],
 		baseStats: { hp: 150, atk: 115, def: 105, spa: 90, spd: 100, spe: 75 },
 		abilities: { 0: "Refrigerate" },
@@ -3028,11 +3028,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
 	},
-	eeveeg: {
+	eeveemegag: {
 		num: 133,
-		name: "Eevee-G",
+		name: "Eevee-Mega-G",
 		baseSpecies: "Eevee",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Normal"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 80, atk: 100, def: 60, spa: 100, spd: 90, spe: 100 },
@@ -3201,11 +3201,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Snorlax-G"],
 		formeOrder: ["Snorlax", "Snorlax-G"],
 	},
-	snorlaxg: {
+	snorlaxmegag: {
 		num: 143,
-		name: "Snorlax-G",
+		name: "Snorlax-Mega-G",
 		baseSpecies: "Snorlax",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Normal"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 180, atk: 140, def: 95, spa: 55, spd: 140, spe: 30 },
@@ -10602,11 +10602,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Garbodor-G"],
 		formeOrder: ["Garbodor", "Garbodor-G"],
 	},
-	garbodorg: {
+	garbodormegag: {
 		num: 569,
-		name: "Garbodor-G",
+		name: "Garbodor-Mega-G",
 		baseSpecies: "Garbodor",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Poison"],
 		baseStats: { hp: 80, atk: 135, def: 107, spa: 60, spd: 107, spe: 85 },
 		abilities: { 0: "Gooey" },
@@ -15604,11 +15604,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Melmetal-G"],
 		formeOrder: ["Melmetal", "Melmetal-G"],
 	},
-	melmetalg: {
+	melmetalmegag: {
 		num: 809,
-		name: "Melmetal-G",
+		name: "Melmetal-Mega-G",
 		baseSpecies: "Melmetal",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Steel"],
 		gender: "N",
 		baseStats: { hp: 165, atk: 173, def: 173, spa: 80, spd: 75, spe: 34 },
@@ -15663,11 +15663,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Rillaboom-G"],
 		formeOrder: ["Rillaboom", "Rillaboom-G"],
 	},
-	rillaboomg: {
+	rillaboommegag: {
 		num: 812,
-		name: "Rillaboom-G",
+		name: "Rillaboom-Mega-G",
 		baseSpecies: "Rillaboom",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Grass"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 130, atk: 145, def: 110, spa: 60, spd: 90, spe: 95 },
@@ -15722,11 +15722,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Cinderace-G"],
 		formeOrder: ["Cinderace", "Cinderace-G"],
 	},
-	cinderaceg: {
+	cinderacemegag: {
 		num: 815,
-		name: "Cinderace-G",
+		name: "Cinderace-Mega-G",
 		baseSpecies: "Cinderace",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Fire"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 100, atk: 156, def: 85, spa: 65, spd: 85, spe: 139 },
@@ -15781,11 +15781,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Inteleon-G"],
 		formeOrder: ["Inteleon", "Inteleon-G"],
 	},
-	inteleong: {
+	inteleonmegag: {
 		num: 818,
-		name: "Inteleon-G",
+		name: "Inteleon-Mega-G",
 		baseSpecies: "Inteleon",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 100, atk: 85, def: 65, spa: 175, spd: 65, spe: 140 },
@@ -15862,11 +15862,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Corviknight-G"],
 		formeOrder: ["Corviknight", "Corviknight-G"],
 	},
-	corviknightg: {
+	corviknightmegag: {
 		num: 823,
-		name: "Corviknight-G",
+		name: "Corviknight-Mega-G",
 		baseSpecies: "Corviknight",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Flying", "Steel"],
 		baseStats: { hp: 128, atk: 107, def: 130, spa: 53, spd: 110, spe: 67 },
 		abilities: { 0: "Mirror Armor" },
@@ -15917,11 +15917,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Orbeetle-G"],
 		formeOrder: ["Orbeetle", "Orbeetle-G"],
 	},
-	orbeetleg: {
+	orbeetlemegag: {
 		num: 826,
-		name: "Orbeetle-G",
+		name: "Orbeetle-Mega-G",
 		baseSpecies: "Orbeetle",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Bug", "Psychic"],
 		baseStats: { hp: 90, atk: 45, def: 130, spa: 95, spd: 140, spe: 105 },
 		abilities: { 0: "Prankster" },
@@ -16033,11 +16033,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Drednaw-G"],
 		formeOrder: ["Drednaw", "Drednaw-G"],
 	},
-	drednawg: {
+	drednawmegag: {
 		num: 834,
-		name: "Drednaw-G",
+		name: "Drednaw-Mega-G",
 		baseSpecies: "Drednaw",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Water", "Rock"],
 		baseStats: { hp: 120, atk: 135, def: 100, spa: 68, spd: 68, spe: 94 },
 		abilities: { 0: "Solid Rock" },
@@ -16113,11 +16113,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Coalossal-G"],
 		formeOrder: ["Coalossal", "Coalossal-G"],
 	},
-	coalossalg: {
+	coalossalmegag: {
 		num: 839,
-		name: "Coalossal-G",
+		name: "Coalossal-Mega-G",
 		baseSpecies: "Coalossal",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Rock", "Fire"],
 		baseStats: { hp: 130, atk: 100, def: 135, spa: 100, spd: 105, spe: 30 },
 		abilities: { 0: "Steam Engine" },
@@ -16155,11 +16155,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Flapple-G"],
 		formeOrder: ["Flapple", "Flapple-G"],
 	},
-	flappleg: {
+	flapplemegag: {
 		num: 841,
-		name: "Flapple-G",
+		name: "Flapple-Mega-G",
 		baseSpecies: "Flapple",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Grass", "Dragon"],
 		baseStats: { hp: 100, atk: 140, def: 80, spa: 85, spd: 80, spe: 100 },
 		abilities: { 0: "Moody" },
@@ -16185,11 +16185,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Appletun-G"],
 		formeOrder: ["Appletun", "Appletun-G"],
 	},
-	appletung: {
+	appletunmegag: {
 		num: 842,
-		name: "Appletun-G",
+		name: "Appletun-Mega-G",
 		baseSpecies: "Appletun",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Grass", "Dragon"],
 		baseStats: { hp: 150, atk: 85, def: 100, spa: 130, spd: 100, spe: 20 },
 		abilities: { 0: "Thick Fat" },
@@ -16226,11 +16226,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Sandaconda-G"],
 		formeOrder: ["Sandaconda", "Sandaconda-G"],
 	},
-	sandacondag: {
+	sandacondamegag: {
 		num: 844,
-		name: "Sandaconda-G",
+		name: "Sandaconda-Mega-G",
 		baseSpecies: "Sandaconda",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Ground", "Flying"],
 		baseStats: { hp: 122, atk: 127, def: 145, spa: 65, spd: 80, spe: 71 },
 		abilities: { 0: "Sand Stream" },
@@ -16354,11 +16354,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Toxtricity-Low-Key-G"],
 		formeOrder: ["Toxtricity-Low-Key", "Toxtricity-Low-Key-G"],
 	},
-	toxtricityg: {
+	toxtricitymegag: {
 		num: 849,
-		name: "Toxtricity-G",
+		name: "Toxtricity-Mega-G",
 		baseSpecies: "Toxtricity",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Electric", "Poison"],
 		baseStats: { hp: 105, atk: 88, def: 80, spa: 144, spd: 80, spe: 105 },
 		abilities: { 0: "Punk Rock" },
@@ -16368,11 +16368,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Human-Like"],
 		requiredItem: "Toxtricitite",
 	},
-	toxtricitylowkeyg: {
+	toxtricitylowkeymegag: {
 		num: 849,
-		name: "Toxtricity-Low-Key-G",
+		name: "Toxtricity-Low-Key-Mega-G",
 		baseSpecies: "Toxtricity",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Electric", "Poison"],
 		baseStats: { hp: 105, atk: 88, def: 80, spa: 144, spd: 80, spe: 105 },
 		abilities: { 0: "Punk Rock" },
@@ -16410,11 +16410,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Centiskorch-G"],
 		formeOrder: ["Centiskorch", "Centiskorch-G"],
 	},
-	centiskorchg: {
+	centiskorchmegag: {
 		num: 851,
-		name: "Centiskorch-G",
+		name: "Centiskorch-Mega-G",
 		baseSpecies: "Centiskorch",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Fire", "Bug"],
 		baseStats: { hp: 120, atk: 135, def: 85, spa: 100, spd: 90, spe: 95 },
 		abilities: { 0: "Speed Boost" },
@@ -16562,9 +16562,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	hattereneg: {
 		num: 858,
-		name: "Hatterene-G",
+		name: "Hatterene-Mega-G",
 		baseSpecies: "Hatterene",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Psychic", "Fairy"],
 		gender: "F",
 		baseStats: { hp: 107, atk: 90, def: 105, spa: 156, spd: 123, spe: 29 },
@@ -16619,11 +16619,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Grimmsnarl-G"],
 		formeOrder: ["Grimmsnarl", "Grimmsnarl-G"],
 	},
-	grimmsnarlg: {
+	grimmsnarlmegag: {
 		num: 861,
-		name: "Grimmsnarl-G",
+		name: "Grimmsnarl-Mega-G",
 		baseSpecies: "Grimmsnarl",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Dark", "Fairy"],
 		gender: "M",
 		baseStats: { hp: 130, atk: 150, def: 75, spa: 95, spd: 90, spe: 100 },
@@ -16796,11 +16796,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		forme: "Rainbow-Swirl",
 		color: "Yellow",
 	},
-	alcremieg: {
+	alcremiemegag: {
 		num: 869,
-		name: "Alcremie-G",
+		name: "Alcremie-Mega-G",
 		baseSpecies: "Alcremie",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Fairy"],
 		gender: "F",
 		baseStats: { hp: 105, atk: 60, def: 95, spa: 130, spd: 141, spe: 64 },
@@ -17004,11 +17004,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Copperajah-G"],
 		formeOrder: ["Copperajah", "Copperajah-G"],
 	},
-	copperajahg: {
+	copperajahmegag: {
 		num: 879,
-		name: "Copperajah-G",
+		name: "Copperajah-Mega-G",
 		baseSpecies: "Copperajah",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Steel"],
 		baseStats: { hp: 142, atk: 160, def: 99, spa: 80, spd: 89, spe: 30 },
 		abilities: { 0: "Heavy Metal" },
@@ -17080,11 +17080,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Duraludon-G"],
 		formeOrder: ["Duraludon", "Duraludon-G"],
 	},
-	duraludong: {
+	duraludonmegag: {
 		num: 884,
-		name: "Duraludon-G",
+		name: "Duraludon-Mega-G",
 		baseSpecies: "Duraludon",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Steel", "Dragon"],
 		baseStats: { hp: 110, atk: 95, def: 125, spa: 150, spd: 80, spe: 75 },
 		abilities: { 0: "Magic Guard" },
@@ -17284,11 +17284,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Urshifu-Rapid-Strike-G"],
 		formeOrder: ["Urshifu-Rapid-Strike", "Urshifu-Rapid-Strike-G"]
 	},
-	urshifug: {
+	urshifumegag: {
 		num: 892,
-		name: "Urshifu-G",
+		name: "Urshifu-Mega-G",
 		baseSpecies: "Urshifu",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Fighting", "Dark"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 120, atk: 150, def: 100, spa: 53, spd: 110, spe: 117 },
@@ -17299,11 +17299,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Urshifutite",
 	},
-	urshifurapidstrikeg: {
+	urshifurapidstrikemegag: {
 		num: 892,
-		name: "Urshifu-Rapid-Strike-G",
+		name: "Urshifu-Rapid-Strike-Mega-G",
 		baseSpecies: "Urshifu",
-		forme: "Mega",
+		forme: "Mega-G",
 		types: ["Fighting", "Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 120, atk: 150, def: 110, spa: 53, spd: 100, spe: 117 },
