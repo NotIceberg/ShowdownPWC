@@ -835,7 +835,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Field", "Fairy"],
 		requiredItem: "Raichunite X",
 		gen: 9,
-		exists: true,
 	},
 	raichumegay: {
 		num: 26,
