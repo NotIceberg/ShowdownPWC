@@ -8112,8 +8112,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return true;
 		},
 		num: -1,
-		gen: 9,
-		isNonstandard: null,
+		gen: 6,
+		isNonstandard: "Past",
 	},
 	victreebelite: {
 		name: "Victreebelite",
