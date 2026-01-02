@@ -43,9 +43,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Venusaur-Mega-X", "Venusaur-Y"],
 		formeOrder: ["Venusaur", "Venusaur-Mega-X", "Venusaur-Mega-G"],
 	},
-	venusaurmegax: {
+	venusaurmega: {
 		num: 3,
-		name: "Venusaur-Mega-X",
+		name: "Venusaur-Mega",
 		baseSpecies: "Venusaur",
 		forme: "Mega",
 		types: ["Grass", "Poison"],
@@ -56,7 +56,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 155.5,
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
-		requiredItem: "Venusaurite X",
+		requiredItem: "Venusaurite",
 	},
 	venusaurmegag: {
 		num: 3,

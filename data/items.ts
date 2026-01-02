@@ -8087,10 +8087,10 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 1123,
 		gen: 8,
 	},
-	venusauritex: {
-		name: "Venusaurite X",
+	venusaurite: {
+		name: "Venusaurite",
 		spritenum: 608,
-		megaStone: "Venusaur-Mega-X",
+		megaStone: "Venusaur-Mega",
 		megaEvolves: "Venusaur",
 		itemUser: ["Venusaur"],
 		onTakeItem(item, source) {
