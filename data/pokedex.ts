@@ -16560,7 +16560,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		otherFormes: ["Hatterene-G"],
 		formeOrder: ["Hatterene", "Hatterene-G"],
 	},
-	hattereneg: {
+	hatterenemegag: {
 		num: 858,
 		name: "Hatterene-Mega-G",
 		baseSpecies: "Hatterene",
