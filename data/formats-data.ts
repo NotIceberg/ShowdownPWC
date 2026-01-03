@@ -4198,8 +4198,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	xerneas: {
 		isNonstandard: "Past",
-		tier: "Illegal",
-		natDexTier: "AG",
+		tier: "Uber",
+		natDexTier: "Uber",
 	},
 	xerneasneutral: {
 		isNonstandard: "Custom", // can't be used in battle
