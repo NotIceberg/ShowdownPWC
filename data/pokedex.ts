@@ -162,6 +162,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Red",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Charizardite G",
+		spriteid: "charizardgmax",
 	},
 	squirtle: {
 		num: 7,
