@@ -8030,36 +8030,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		num: 252,
 		gen: 2,
 	},
-	urshifutite: {
-		name: "Urshifutite",
-		spritenum: 620,
-		megaStone: ["Urshifu-Mega-G", "Urshifu-Rapid-Strike-Mega-G"],
-		megaEvolves: ["Urshifu", "Urshifu-Rapid-Strike"],
-		itemUser: ["Urshifu", "Urshifu-Rapid-Strike"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: -33,
-		gen: 9,
-		isNonstandard: null,
-	},
-	/*
-	urshifutiterapidstrike: {
-		name: "Urshifutite Rapid Strike",
-		spritenum: 620,
-		megaStone: "Urshifu-Rapid-Strike-Mega-G",
-		megaEvolves: "Urshifu-Rapid-Strike",
-		itemUser: ["Urshifu-Rapid-Strike"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: -34,
-		gen: 9,
-		isNonstandard: null,
-	},
-	*/
 	utilityumbrella: {
 		name: "Utility Umbrella",
 		spritenum: 718,
