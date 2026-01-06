@@ -5307,16 +5307,6 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},
-	urshifumegag: {
-		isNonstandard: null,
-		tier: "Illegal",
-		natDexTier: "Uber",
-	},
-	urshifurapidstrikemegag: {
-		isNonstandard: null,
-		tier: "Illegal",
-		natDexTier: "Uber",
-	},
 	zarude: {
 		tier: "UUBL",
 		doublesTier: "(DUU)",
