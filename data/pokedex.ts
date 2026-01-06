@@ -162,7 +162,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Red",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Charizardite G",
-		spriteid: "charizardgmax",
 	},
 	squirtle: {
 		num: 7,
@@ -17303,8 +17302,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	urshifurapidstrikemegag: {
 		num: 892,
 		name: "Urshifu-Rapid-Strike-Mega-G",
-		baseSpecies: "Urshifu",
-		forme: "Mega-G",
+		baseSpecies: "Urshifu-Rapid-Strike",
+		forme: "Rapid-Strike-Mega-G",
 		types: ["Fighting", "Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 120, atk: 150, def: 110, spa: 53, spd: 100, spe: 117 },
