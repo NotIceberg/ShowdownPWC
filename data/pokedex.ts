@@ -71,7 +71,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0,
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
-		spriteid: "venusaurmegag",
 		requiredItem: "Venusaurite G",
 	},
 	charmander: {
