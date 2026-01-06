@@ -17299,8 +17299,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	urshifurapidstrikemegag: {
 		num: 892,
 		name: "Urshifu-Rapid-Strike-Mega-G",
-		baseSpecies: "Urshifu-Rapid-Strike",
-		forme: "Mega-G",
+		baseSpecies: "Urshifu",
+		forme: "Rapid-Strike-Mega-G",
 		types: ["Fighting", "Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 120, atk: 150, def: 110, spa: 53, spd: 100, spe: 117 },
@@ -17309,7 +17309,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 0,
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
-		requiredItem: "Urshifutite Rapid Strike",
+		requiredItem: "Urshifutite",
 	},
 	zarude: {
 		num: 893,
