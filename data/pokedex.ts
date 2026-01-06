@@ -17299,7 +17299,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	urshifurapidstrikemegag: {
 		num: 892,
 		name: "Urshifu-Rapid-Strike-Mega-G",
-		baseSpecies: "Urshifu-Rapid-Strike",
+		baseSpecies: "Urshifu",
 		forme: "Rapid-Strike-Mega-G",
 		types: ["Fighting", "Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
